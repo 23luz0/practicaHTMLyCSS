@@ -9,12 +9,9 @@
     -color-para-cajas:#3bceac;
 }
 .nav-container{
-    background-color: #0ead69;
+    background-color:var(--color-backgroud-header);
 }
 .navegador{
-    color: #eff7f6;
+    color: var(--color-letras);
 }
 
-/*definir el backgroud de header*/
-
-/*definir el colro de letra*/
