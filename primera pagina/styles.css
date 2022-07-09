@@ -20,8 +20,6 @@ body{
 :root{
     --color-backgroud-header:#0ead69;
     --color-letras:#eff7f6;
-    --color_para_boydy:#0d3b66;
-    --color-para-cajas:#3bceac;
     --bg-color:#10101a;
 }
 
@@ -41,7 +39,7 @@ body{
     align-items: center;
 }
 span{
-    color: #eff7f6;
+    color:var(--color-letras);
 }
 .logo > img{
     height: 68px;
@@ -89,7 +87,7 @@ a:hover{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    color: white;
+    color: var(--color-letras);
     
     
 }
