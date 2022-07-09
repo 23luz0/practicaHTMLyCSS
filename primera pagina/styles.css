@@ -14,7 +14,7 @@
 
 body{
     font-family: 'Rubik', sans-serif;
-    
+    background-color: var(--bg-color);
     
 }
 :root{
@@ -22,20 +22,22 @@ body{
     --color-letras:#eff7f6;
     --color_para_boydy:#0d3b66;
     --color-para-cajas:#3bceac;
+    --bg-color:#10101a;
 }
 
 /**header*/
 .nav-container{
     background-color:var(--color-backgroud-header);
     height: 70px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 5px;
 }
 .logo{
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
 }
 .logo > img{
     height: 68px;
@@ -43,14 +45,13 @@ body{
 }
 .caja_nav{
     display: flex;
-    justify-content: end;
+    justify-content: center;
     
 }
 
 .navegador{
     display: flex;
     align-items: center;
-    margin-right: 50px;
 }
 li{
     display: flex;
@@ -68,21 +69,23 @@ a:hover{
 
 /*main*/
 .body_container{
-    background-color: var(--color-para-cajas);
     width: 70%;
-    margin: 30px auto;
-    padding: 90px;
+    margin: 50px auto;
+    height: auto;
+    padding: 60px 90px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 200px 200px 200px;
     gap: 20px;
     border-radius: 10px;
+
     
 }
 .clases{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    color: white;
     
     
 }
