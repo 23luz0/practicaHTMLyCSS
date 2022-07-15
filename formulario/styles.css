@@ -4,30 +4,96 @@
 }
 body{
     font-family: 'Roboto', sans-serif;	
-}
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 10% 1fr;
-    margin: 50px auto;
-    width:45%;
-    height: 70vh;
-    align-items: center;
+    background: #10101a;
+    
 }
 
+.container{
+    background-color: white;
+    height: 500px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 2fr;
+    padding: 1px ;  
+    border-radius: 5px;
+    
+}
+h1{
+    color: purple;
+}
 .cabeza{
+
+    max-height: 100%;
+    width: auto;    
     grid-column: 1/3;
-    grid-row: 1/2;
+    color: white;
+
+    /*estilos para interior*/
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #d64b4b;
-    height: 100%;
     
 }
 .faltante{
-    width: 90%;
-    margin: 0 auto;
+    
+    width: auto;
+    background-image: url(../formulario/img/logoForm.jpg);
+    background-size: cover;
+    background-position: center ;
+    grid-row: 2/3;
+    max-width: 100%;
+    border-radius:5px; ;
+    /*estilos para interior*/
+    
 }
 
+.cont{
+    background-color: white;
+    width: auto;
+    max-height: 1000%;
+    grid-row: 2/3;
+    /*estilos para interior*/
+    text-align: center;
+    
+    
+}
+input{
+    max-width: 100%;
+    height: 40px;
+    border-radius: 2.5px;
+    border: none;
+    border-bottom: 2px solid purple;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+textarea{
+    max-width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid purple;
+    
+    padding: 0 30px;
+    font-size: 16px;
+    color: #666;
+}
+.enviar{
+    background-color: purple;
+    width: auto;
+    max-height: 1000%;
+    grid-row: 2/3;
+    /*estilos para interior*/
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    
 
